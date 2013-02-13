@@ -20,18 +20,26 @@ ul {
 }
 
 li { 
+  /* Round corners */
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  
+
+  /* Add hard shadow */
+  -webkit-box-shadow: 2px 2px 0px rgba(50, 50, 50, 0.15);
+  -moz-box-shadow:    2px 2px 0px rgba(50, 50, 50, 0.15);
+  box-shadow:         2px 2px 0px rgba(50, 50, 50, 0.15);
+
+  /* Gradient background */
   background-image: linear-gradient(bottom, rgb(38,38,38) 0%, rgb(46,46,46) 100%);
   background-image: -moz-linear-gradient(bottom, rgb(38,38,38) 0%, rgb(46,46,46) 100%);
   background-image: -webkit-linear-gradient(bottom, rgb(38,38,38) 0%, rgb(46,46,46) 100%);
 
   list-style-type: none;
-  margin: 5px;
+  margin: 10px 5px;
 }
 li:hover {
+  /* Darken background */
   background-image: linear-gradient(bottom, rgb(0,0,0) 0%, rgb(26,26,26) 100%);
   background-image: -moz-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(26,26,26) 100%);
   background-image: -webkit-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(26,26,26) 100%);
