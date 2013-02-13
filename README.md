@@ -1,4 +1,3 @@
-Start Page
----
+# Start Page
 
-Placeholder.
+![Screenshot of Start Page](http://i.imgur.com/rhWNfig.png)
